@@ -35,3 +35,14 @@
 # INTEGRANTES
 - Valentin Schoenfel
 - Martina Heredia
+
+flowchart TD
+    A([Inicio]) --> B[Configurar pines]
+    B --> C[Encender LED rojo]
+    C --> D[Esperar 5 segundos]
+    D --> E[Apagar LED rojo]
+    E --> F[Encender LED verde]
+    F --> G[Esperar 5 segundos]
+    G --> H[Apagar LED verde]
+    H --> I[Encender LED amarillo]
+    I --> J[Esperar 2 segundos]
